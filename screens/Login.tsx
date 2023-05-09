@@ -1,7 +1,7 @@
 import React from 'react';
 import { SafeAreaView, View, Text, Image, StyleSheet, TextInput, TouchableOpacity} from 'react-native';
 
-// import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+// .. import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 // import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const Login = ({navigation} : any) => {
