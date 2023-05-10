@@ -6,11 +6,11 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
 
 
-const Register = ({navigation}) => {
-    const [date, setDate] = useState();
+const Register = ({navigation}: any) => {
+    const [date, setDate] = useState<Date>();
     const [showDatePicker, setShowDatePicker] = useState(false);
 
-    const handleDateChange = (selectedDate) => {
+    const handleDateChange = (selectedDate: Date) => {
         if (selectedDate) {
         setDate(selectedDate);
         }
@@ -20,11 +20,6 @@ const Register = ({navigation}) => {
     const openDatePicker = () => {
         setShowDatePicker(true);
     };
-      
-      
-  
-
-
 
     return (
         <View style={{flex: 1, justifyContent: 'center'}}>
